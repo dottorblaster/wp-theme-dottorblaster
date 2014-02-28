@@ -1,5 +1,5 @@
 /*
-Theme Name: Flow
+Theme Name: Dottorblaster
 Theme URI: https://github.com/dottorblaster/wp-theme-flow
 Author: Alessio Biancalana
 Author URI: http://dottorblaster.it
@@ -59,7 +59,7 @@ body {
 #primary {
 	margin-top: 15px;
 	text-align: center;
- 	width:70%;
+ 	width:100%;
  	float: left;
 }
 
@@ -79,7 +79,7 @@ body {
 	font-size: 10px;
 	margin-bottom: 70px;
 	float: left;
-	width: 30%;
+	width: 100%;
 	max-width: 300px;
 	height: 100%;
 }
