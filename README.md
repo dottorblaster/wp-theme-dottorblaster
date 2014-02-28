@@ -1,4 +1,4 @@
-Flow for WordPress
+Dottorblaster's for WordPress
 ==================
 
 _I have to rewrite this part ;)_
