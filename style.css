@@ -31,7 +31,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Average', serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -191,7 +191,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h3 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	text-transform: none;
 	text-align: left;
@@ -460,7 +460,7 @@ a:active {
 
 .entry-title a {
 	color: #404040;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	font-size: 36px;
 	text-align:left;
@@ -469,7 +469,7 @@ a:active {
 
 .entry-title-single a {
 	color: #404040;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	font-size: 40px;
 	text-align:left;
@@ -618,7 +618,7 @@ a:active {
 
 .entry-title {
 	color: #404040;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	font-size: 36px;
 	text-align:left;
@@ -629,7 +629,7 @@ a:active {
 
 .entry-title-single {
 	color: #404040;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	font-size: 40px;
 	text-align:left;
