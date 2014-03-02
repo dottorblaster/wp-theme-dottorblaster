@@ -8,6 +8,16 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<h1 class="entry-title-single"><?php the_title(); ?></h1>
+
+		<div class="entry-posted">
+			<?php lean_posted_on(); ?> - 
+			<?php 
+				$category = get_the_category(); 
+				if($category[0]){
+				echo '<a href="'.get_category_link($category[0]->term_id ).'">'.$category[0]->cat_name.'</a>';
+				}
+			?>
+		</div>
 	</header><!-- .entry-header -->
 
 	<div id="post-contain">
