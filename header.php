@@ -14,6 +14,7 @@
 <meta name="viewport" content="width=device-width" />
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Average' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Inika:400,700' rel='stylesheet' type='text/css' />
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.

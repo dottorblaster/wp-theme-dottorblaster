@@ -239,7 +239,7 @@ dfn, cite, em, i {
 }
 blockquote {
 	font-family: 'Inika', serif;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 700;
 	margin: 0 1.0em;
 	margin-bottom: 1.0em;
@@ -821,6 +821,6 @@ object {
 			box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 		}
 	.entry-content {
-		font-size: 14px;
+		font-size: 16px;
 	}
 }

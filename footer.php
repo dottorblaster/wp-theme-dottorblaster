@@ -16,7 +16,7 @@
 			<?php do_action( 'lean_credits' ); ?>
 			Blogging with <a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'lean' ); ?>" rel="generator"><?php printf( __( '%s', 'lean' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'lean' ), 'lean', '<a href="http://dottorblaster.it/" rel="designer">Alessio Biancalana</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'lean' ), 'dottorblaster', '<a href="http://dottorblaster.it/" rel="designer">Alessio Biancalana</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
