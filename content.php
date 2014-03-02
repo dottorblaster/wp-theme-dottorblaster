@@ -10,7 +10,15 @@
 	<header class="entry-header">
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'lean' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
-		5<!-- .entry-posted -->
+		<div class="entry-posted">
+			<?php lean_posted_on(); ?> - 
+			<?php 
+				$category = get_the_category(); 
+				if($category[0]){
+				echo '<a href="'.get_category_link($category[0]->term_id ).'">'.$category[0]->cat_name.'</a>';
+				}
+			?>
+		</div><!-- .entry-posted -->
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<?php endif; ?>
